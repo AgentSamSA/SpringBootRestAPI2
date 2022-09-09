@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate MappingDTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.genspark.SpringBootRestAPI2.Entity.Employee" table="tbl_employee">
+        <id name="employeeId">
+            <generator class="assigned"></generator>
+        </id>
+
+        <property name="employeeName"></property>
+        <property name="employeeDepartment"></property>
+    </class>
+</hibernate-mapping>
